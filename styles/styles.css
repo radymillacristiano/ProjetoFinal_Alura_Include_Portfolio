@@ -150,7 +150,7 @@ body{
 .apresentacao__links__link:hover {
   background-color: var(--cor-preta);
   border: 2px solid var(--cor-preta);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 /* ///////////////// */
@@ -160,7 +160,6 @@ body{
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 0.875rem;
-  /* 16 regular */
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
@@ -168,15 +167,24 @@ body{
 /* ///////////////// */
 
 .desenvolvimento {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .desenvolvimento__titulo {
   text-align: center;
   color: var(--cor-cinza);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
-  font-weight: 800;
+  font-weight: 400;
+  margin: 30px;
+}
+
+.desenvolvimento > img {
+  width: 30%;
+  border-radius: 8px;
 }
 
 /* ///////////////// */
