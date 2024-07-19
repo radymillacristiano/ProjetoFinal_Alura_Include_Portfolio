@@ -166,7 +166,12 @@ body{
 }
 
 /* ///////////////// */
-.titulo__desenvolvimento {
+
+.desenvolvimento {
+
+}
+
+.desenvolvimento__titulo {
   text-align: center;
   color: var(--cor-cinza);
   font-size: 2.5rem;
